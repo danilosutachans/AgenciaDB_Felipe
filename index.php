@@ -16,6 +16,9 @@
 		<input type="date" name="fechanac" placeholder="Fecha Nacimiento">
 		<input type="text" name="telefono" placeholder="Celular">
 		<input type="submit" name="register">
+	    <select name="select_ciudades">
+		    <option>BOGOTA</option>
+	    </select>
     </form>
         <?php 
         include("registrar.php");
